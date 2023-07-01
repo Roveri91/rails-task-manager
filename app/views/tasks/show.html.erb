@@ -1,0 +1,12 @@
+<h1><%= @task.title %></h1>
+
+<div>
+  <%= link_to "Edit Task", edit_path %>
+  <h4><%= @task.details %></h4>
+</div>
+
+<p><%= @message %></p>
+
+
+<%= link_to "Back to List", tasks_path %>
+
